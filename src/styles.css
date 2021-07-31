@@ -67,7 +67,6 @@ nav {
 main {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     height: 99%;
 }
 .illustration {

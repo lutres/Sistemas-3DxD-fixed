@@ -68,6 +68,11 @@ module.exports = {
             filename: './index.html',
             inject: 'body',
         }),
+        new HtmlWebPackPlugin({
+            template: './src/productos.html',
+            filename: './productos.html',
+            inject: 'body',
+        }),
         new MiniCssExtractPlugin({
             filename: '[name].[contenthash].css',
             ignoreOrder: false
